@@ -1,7 +1,7 @@
+# start
 import sys
 import re
 import glob
-# start
 virus = []
 
 # opening

